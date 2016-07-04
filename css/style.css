@@ -1,0 +1,196 @@
+body {
+	background-color: #0c739f;
+	background-image: url(../img/background.jpg);
+	background-repeat: repeat-x;
+	font: 0px Tahoma;
+}
+
+.wraper {
+	position: relative;
+    width: 1000px;
+    margin: 0 auto;
+    background-color: white;
+}
+
+.gradient1 {
+    position: absolute;
+	left: -6px;
+    top: 0px;
+    bottom: -3px;
+    right: -6px;
+    z-index: -1;
+  
+
+header .first-section {
+    position: relative;
+}
+
+.logo {
+  float: left;
+  margin-top: 10px;
+  margin-left: 30px;
+
+}
+.contacts {
+	float: right;
+  margin-right: 30px;
+  margin-top: 10px;
+  color: #80c0cf;
+    font-size: 12px;
+    line-height: 145%;
+}
+
+.contacts p:first-child {
+    font-weight: bold;
+	margin-bottom: 5px;
+}
+
+
+
+.countries {
+    position: absolute;
+    right: 30px;
+    bottom: 10px;
+    list-style: none;
+}
+
+.countries li {
+	float: left;
+
+}
+
+.countries li a {
+	display: block;
+    width: 55px;
+    padding-top: 43px;
+    color: #128aa7;
+    background-repeat: no-repeat;
+    text-align: center;
+    font-size: 10px;
+	background-image: url(../img/flags.png);
+}
+li.india a {
+    background-position: 7px 0px;
+}
+li.nepal a {
+	background-position: -51px 0px;
+}
+li.tibet a {
+    background-position: -107px 0px;
+}
+li.butan a {
+    background-position: -162px 0px;
+}
+li.sri-lanka a {
+    background-position: -217px 0px;
+}
+li.maldives a {
+    background-position: -275px 0px;
+}
+
+.menu {
+    height: 34px;
+    background-image: url(../img/menu-bg.png);
+    color: white;
+    list-style: none;
+    font-size: 14px;
+    font-weight: normal;
+}
+
+.menu a {
+    text-decoration: inherit;
+    color: inherit;
+}
+
+.menu li {
+    float: left;
+    position: relative;
+    line-height: 30px;
+    margin-left: 50px;
+}
+
+.submenu:after {
+    content: ' ';
+    float: right;
+	margin-top: 11px;
+    margin-left: 4px;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 8px solid white;
+}
+
+.submenu ul {
+    position: absolute;
+    top: 30px;
+    left: -9999px;
+    padding-bottom: 8px;
+    padding-right: 40px;
+    padding-left: 10px;
+    color: white;
+    background-color: #303030;
+    list-style: none;
+    font-size: 14px;
+    white-space: nowrap;
+    box-shadow: 0px 5px 5px 0px rgba(0,0,0,1);
+}
+
+.submenu ul li {
+    height: 16px;
+    margin-left: 0px;
+    padding-bottom: 6px;
+    font-weight: normal;
+}
+
+.menu li:hover ul {
+    left: 0px;
+}
+
+
+
+.fon {
+	overflow: hidden;
+    color: #424c43;
+    text-align: center;
+    font-size: 12px;
+}
+.leftColumn, .rightColumn{
+	float: left;
+    width: 208px;
+    padding-bottom: 20000px;
+    margin-bottom: -20000px;
+    border-right: 1px solid #c7cacf;
+    border-left: 1px solid #c7cacf;
+    background-color: #edeef0;
+    font-size: 14px;
+
+}
+.centerColumn {
+
+
+
+	width: 580px;
+	float: left;
+	padding-bottom: 20000px;
+    margin-bottom: -20000px;
+}
+.fon p {
+	padding-left: 15px;
+    text-align: left;
+    line-height: 172%;
+    letter-spacing: 0.1px;
+    padding-bottom: 10px;}
+
+.fon h2 {
+	margin-top: 3px;
+    margin-bottom: 3px;
+    color: #424c43;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.bottom {
+	color: white;
+    height: 26px;
+    padding-top: 8px;
+    font-size: 12px;
+    text-align: center;
